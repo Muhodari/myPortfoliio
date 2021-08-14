@@ -1,6 +1,9 @@
 mat-toolbar{
-  margin-top: 20px;
+  height:80px ;
+  /* margin-top: 20px; */
   background-color:white;
+  position:fixed;
+
 }
 .logo{
 margin-left: 230px;
