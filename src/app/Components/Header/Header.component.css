@@ -1,0 +1,33 @@
+mat-toolbar{
+  margin-top: 20px;
+  background-color:white;
+}
+.logo{
+margin-left: 230px;
+font-size: 30px;
+color: black;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+.contactButton{
+margin-right: 150px;
+}
+.contactButton button{
+  width: 190px;
+  height: 58px;
+  border-radius: 8px;
+  font-size: 19px;
+ background: rgb(122, 50, 50);
+}
+
+.normalButton{
+  margin-left: 303px;
+}
+.normalButton button{
+  color: rgb(20, 18, 18);
+  font-size: 19px;
+  margin-left: 10px;
+  height: 58px;
+}
