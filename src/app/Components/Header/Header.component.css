@@ -5,6 +5,7 @@ mat-toolbar{
   top: 0; /* Sets the sticky toolbar to be on top */
   z-index: 1000;
   background: white;
+  box-shadow: 0;
 
 
 }
@@ -62,12 +63,11 @@ margin-right: 150px;
   height: 800px;
 }
 .main-content{
-  width: 60%;
-  background-color: aqua;
+  width: 52%;
 }
 .main-image{
   width: 39%;
-  background-color: brown;
+  /* background-color: brown; */
 }
 .div-main-body::after{
   content: "";
@@ -129,4 +129,11 @@ margin-right: 150px;
   font-size: 18px;
   color: rgb(53, 58, 58);
   margin-bottom: 10px !important;
+}
+/* main image */
+.main-image img{
+  margin-top: 140px;
+  width: 380px;
+  margin-left: 50px;
+
 }
