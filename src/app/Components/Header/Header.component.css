@@ -1,5 +1,5 @@
 mat-toolbar{
-  height:80px ;
+  height:70px ;
   position: sticky;
   position: -webkit-sticky; /* For macOS/iOS Safari */
   top: 0; /* Sets the sticky toolbar to be on top */
@@ -48,7 +48,7 @@ margin-right: 150px;
   color: black;
   margin-top: 6px;
   background:whitesmoke;
-  height: 800px;
+  height: 740px;
 
 }
 
