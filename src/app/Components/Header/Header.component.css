@@ -1,8 +1,11 @@
 mat-toolbar{
   height:80px ;
-  /* margin-top: 20px; */
-  background-color:white;
-  position:fixed;
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 1000;
+  background: white;
+
 
 }
 .logo{
@@ -35,6 +38,10 @@ margin-right: 150px;
   height: 58px;
 }
 
-.main-body{
+/* main body design */
+.div-main-body{
   color: black;
+  margin-top: 6px;
+  background:whitesmoke;
+  /* height: 70px; */
 }
