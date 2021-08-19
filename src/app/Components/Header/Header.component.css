@@ -162,23 +162,28 @@ margin-right: 150px;
 
 .about-me-container{
 width: 100%;
-height: 600px;
+height: 1000px;
 background-color: blueviolet;
 }
 
 .about-me-container div{
   float: left;
   /* width: 48%; */
-  margin-left: 0.5%;
-  height:400px;
+  margin-left: 0%;
+  height:680px;
 }
 
 .about-container{
-  width: 53%;
+  width: 60%;
   background-color: burlywood;
 }
 
   .about-image{
-    width: 45%;
+    width: 38%;
     background-color: cornsilk;
+  }
+  .about-image img{
+    height:640px;
+    width: 400px;
+    font-size: 20px;
   }
