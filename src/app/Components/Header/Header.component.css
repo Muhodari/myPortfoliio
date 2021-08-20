@@ -162,8 +162,8 @@ margin-right: 150px;
 
 .about-me-container{
 width: 100%;
-height: 1000px;
-background-color: blueviolet;
+height: 760px;
+/* background-color: blueviolet; */
 }
 
 .about-me-container div{
@@ -175,21 +175,23 @@ background-color: blueviolet;
 
 .about-container{
   width: 60%;
-  background-color: burlywood;
+  /* background-color: white; */
+  padding-top: 150px;
 }
 
   .about-image{
     width: 38%;
-    background-color: cornsilk;
+    /* background-color:white; */
   }
   .about-image img{
     height:640px;
     width: 400px;
     font-size: 20px;
+    margin-left: 90px;
   }
 
 .about-container{
-background-color: aqua;
+/* background-color: white; */
 width: 33%;
 margin-left:170px !important;
 
@@ -202,4 +204,14 @@ margin-left:170px !important;
   background-color:grey;
   margin-right: 10px;
   width:30px;
+}
+.about-coninter-description h1{
+font-weight: bold;
+font-family: 'Work Sans';
+font-size: 30px;
+}
+
+.about-coninter-description p{
+ font-size: 18px;
+ font-family: 'Work Sans';
 }
