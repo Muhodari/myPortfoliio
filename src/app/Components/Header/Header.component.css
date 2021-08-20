@@ -187,3 +187,19 @@ background-color: blueviolet;
     width: 400px;
     font-size: 20px;
   }
+
+.about-container{
+background-color: aqua;
+width: 33%;
+margin-left:170px !important;
+
+}
+
+.horizontal{
+  margin-top: 6px;
+  height:2px !important;
+  border: 2px;
+  background-color:grey;
+  margin-right: 10px;
+  width:30px;
+}
