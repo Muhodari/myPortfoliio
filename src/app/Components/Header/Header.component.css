@@ -64,7 +64,7 @@ margin-right: 150px;
 .div-main-body{
   color: black;
   margin-top: 6px;
-  background:rgb(252, 250, 250);
+  background:#FBFBFB;
   height: 740px;
 
 }
@@ -204,6 +204,7 @@ margin-left:170px !important;
   background-color:grey;
   margin-right: 10px;
   width:30px;
+  display: inline-block;
 }
 .about-coninter-description h1{
 font-weight: bold;
@@ -214,4 +215,74 @@ font-size: 30px;
 .about-coninter-description p{
  font-size: 18px;
  font-family: 'Work Sans';
+}
+
+/* ================================================================
+= about works full Design
+=============================================================*/
+
+.someWorks-container{
+  height:1000px;
+  background-color:#FBFBFB;
+}
+
+.contain-works{
+  /* background-color: yellow; */
+  height: 1100px;
+  width: 80%;
+  margin-left: 10%;
+}
+.contiain-project{
+  margin-top: 30px;
+width: 100%;
+height: 980px;
+}
+
+
+.section-name{
+  font-weight: bolder;
+  font-family: 'Work sans';
+  font-size: 35px;
+}
+.project{
+  width: 30%;
+  display:inline-block;
+  margin: 0 3% 3% 0;
+
+  background-color:#FBFBFB;
+}
+.contain-project-image{
+  background-color:#F0F0F0;
+}
+.project img{
+
+  width:93%;
+  height: 230px;
+  margin: 7% 3% 7% 3%;
+}
+
+.langouge-container{
+  margin-bottom: 10px;
+}
+
+.langouge-container button{
+  height: 32px;
+  background-color:#F0F0F0 ;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 20px;
+  color: #413636;
+  /* cursor:none; */
+}
+.langouge-container span{
+  background-color:red ;
+  height: 40px ;
+  text-align: center;
+}
+.project-name{
+  font-weight: bold;
+}
+.app-description{
+  font-size: 17px;
+  color: #413636;
 }
