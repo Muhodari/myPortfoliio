@@ -337,8 +337,9 @@ float: right;
 background-color: #FFE3E3;
 /* font-size: 30px; */
 width: 50px;
-border-radius: 100%;
+border-radius: 60%;
 display: inline-block;
+margin-bottom: 20px;
 }
 .icons i{
   font-size: 30px;
