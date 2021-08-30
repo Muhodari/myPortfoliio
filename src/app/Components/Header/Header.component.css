@@ -333,3 +333,16 @@ width: 50%;
 float: right;
 }
 
+.address div div{
+background-color: #FFE3E3;
+/* font-size: 30px; */
+width: 50px;
+border-radius: 100%;
+display: inline-block;
+}
+.icons i{
+  font-size: 30px;
+  margin: 27%;
+  text-align: center;
+  color: #7B2524;
+}
