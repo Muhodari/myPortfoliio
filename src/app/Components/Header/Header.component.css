@@ -222,7 +222,7 @@ font-size: 30px;
 =============================================================*/
 
 .someWorks-container{
-  height:1000px;
+  min-height:1000px;
   background-color:#FBFBFB;
 }
 
@@ -286,3 +286,50 @@ height: 980px;
   font-size: 17px;
   color: #413636;
 }
+
+
+/*===================================================
+== some certificates
+================================================= */
+
+
+.certificate-container{
+
+  width: 80%;
+margin:10%;
+}
+.certificate-title{
+  font-size: 22px;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+
+.mat-spinner{
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+
+
+/* ==================================================================
+============= footer
+====================================================================*/
+
+.footer-container {
+  background-color: #FBFBFB;
+
+}
+.footer-content{
+  width: 80%;
+margin: 10%;
+}
+.footer-address{
+  width: 50%;
+  float: left;
+}
+
+.footer-contact-form-container{
+width: 50%;
+float: right;
+}
+

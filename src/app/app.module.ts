@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './Components/Header/Header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MainBodyComponent } from './Components/MainBody/MainBody.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MainBodyComponent } from './Components/MainBody/MainBody.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
+    MatProgressSpinnerModule
 
   ],
   providers: [],
