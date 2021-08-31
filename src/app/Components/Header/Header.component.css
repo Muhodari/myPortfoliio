@@ -332,19 +332,60 @@ margin: 10%;
 width: 50%;
 float: right;
 }
+.address{
+  margin-top:68px;
+
+}
 
 .address div div{
 background-color: #FFE3E3;
 /* font-size: 30px; */
 width: 50px;
-border-radius: 60%;
+border-radius: 80%;
 display: inline-block;
 margin-bottom: 20px;
+margin-right: 10px;
 }
 .icons i{
-  font-size: 30px;
-  margin: 27%;
+  font-size: 20px;
+  margin: 30%;
   text-align: center;
   color: #7B2524;
 };
 
+.address div span{
+  font-weight:20px;
+}
+.icon-description{
+  margin-left:10px !important;
+}
+
+form{
+  margin-left:80px;
+}
+form label{
+  display: block;
+  color: #413636;
+  font-size:14px;
+
+}
+
+form input,textarea{
+height: 50px;
+width: 400px;
+border: none;
+margin-bottom: 20px;
+background-color: #F2F2F2;
+}
+form textarea{
+  width: 400px;
+  height: 120px;
+
+}
+form button {
+  background-color: #7B2524;
+  color: white;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+}
