@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import {MatToolbar} from "@angular/material/toolbar"
 
 @Component({
@@ -7,6 +7,18 @@ import {MatToolbar} from "@angular/material/toolbar"
   styleUrls: ['./Header.component.css']
 })
 
-export class HeaderComponent {
+export class HeaderComponent implements OnInit{
   title = 'myPortfolio';
+ hamburger = document.querySelector(".hamburger");
+ navMenu = document.querySelector(".nav-menu");
+
+
+ngOnInit() {
+
+
+}
+
+
+
+
 }
