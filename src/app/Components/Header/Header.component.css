@@ -155,14 +155,118 @@ margin-right: 150px;
 
 }
 
+@media only screen and (max-width: 768px) {
+
+.div-main-body{
+  color: black;
+  margin-top: 6px;
+  background:#FBFBFB;
+  width: 200%;
+
+
+}
+
+.div-main-body::after{
+  content: "";
+  display:block;
+
+  clear:none;
+}
+
+.div-main-body div{
+  display: block;
+  float:none !important;
+  /* width: 48%; */
+  padding: 10px;
+  margin-left: 0.5%;
+  /* height: 800px; */
+  width: 100%;
+}
+.main-content{
+width: 100%;
+margin-bottom: 0;
+}
+.main-image{
+  width: 39%;
+  /* background-color: brown; */
+}
+.main-content-container{
+
+  width: auto !important;
+  margin-top:0;
+  margin-left:0px !important;
+  height:300px !important;
+
+}
+
+.main-image img{
+  margin-top:0px;
+  width:90%;
+  margin-left: 5%;
+
+}
+
+.body-header{
+  font-weight:1000px;
+  font-size: 50px;
+  font-family:sans-serif;
+  width: 90%;
+  margin-left: 10%;
+  letter-spacing:0;
+  line-height: 60px;
+
+}
+
+
+
+.myDescription{
+
+  width:99%;
+  /* margin-left:2%; */
+  font-size: 30px;
+  line-height: 60px;
+  color: rgb(53, 58, 58);
+  margin-bottom: 10px !important;
+}
+.text-welcome-center{
+ padding-left:30px !important;
+ text-align: center;
+}
+
+/* iuiuiu */
+
+.container-button{
+  width: auto !important;
+  height: 100px !important;;
+}
+.container-button button{
+  display: block;
+}
+.bronw-button,.white-button{
+
+  margin-top: 20px;
+  height: 100px;
+  width:400px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  margin-left: 80px;
+}
+
+
+
+
+}
+
+
 /* ====================================================== */
 /*              about us section */
 /* ========================================= */
 
-
 .about-me-container{
 width: 100%;
 height: 760px;
+
 /* background-color: blueviolet; */
 }
 
@@ -206,6 +310,7 @@ margin-left:170px !important;
   width:30px;
   display: inline-block;
 }
+
 .about-coninter-description h1{
 font-weight: bold;
 font-family: 'Work Sans';
@@ -217,13 +322,90 @@ font-size: 30px;
  font-family: 'Work Sans';
 }
 
+@media only screen and (max-width: 768px) {
+  .about-me-container{
+    /* background-color: turquoise; */
+    width: 100%;
+    margin-top: 1000px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+.about-me-container div{
+    float:none;
+    display: block;
+    width: 100%;
+
+  }
+
+  .about-container{
+    width: 180% !important;
+    margin-left: 0 !important;
+    padding: 0;
+    margin-left: 10% !important;
+
+    /* background-color: yellow; */
+  }
+
+
+.about-coninter-description{
+/* background-color: #7B2524; */
+width: 100% !important;
+  }
+
+  .horizontal{
+    margin-top: 6px;
+    height:2px !important;
+    border: 2px;
+    background-color:grey;
+    margin-right: 10px;
+    width:70px !important;
+    display: inline-block;
+  }
+
+
+  .about-coninter-description h1{
+    font-weight: bold;
+    font-family:sans-serif;
+    font-size: 65px;
+    }
+
+    .about-coninter-description p{
+      margin-top: 40px;
+     font-size: 40px;
+     font-weight: 500;
+     line-height: 40px;
+     font-family: 'Work Sans';
+     color: #4F4F4F;
+    }
+
+
+    .about-image{
+      width:100% !important;
+    }
+    .about-image img{
+      height:800px;
+      width: 600px;
+      font-size: 20px;
+      margin-left: 0px;
+    }
+
+
+
+}
+
+
+
+
+
 /* ================================================================
 = about works full Design
 =============================================================*/
 
 .someWorks-container{
-  min-height:1000px;
+  /* min-height:1000px; */
   background-color:#FBFBFB;
+  /* margin-top: 2000px; */
 }
 
 .contain-works{
