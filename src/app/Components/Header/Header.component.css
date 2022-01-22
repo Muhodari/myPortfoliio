@@ -158,10 +158,12 @@ margin-right: 150px;
 @media only screen and (max-width: 768px) {
 
 .div-main-body{
+  float: none;
   color: black;
   margin-top: 6px;
   background:#FBFBFB;
-  width: 180%;
+  width: 200% !important;
+
 
 
 }
@@ -180,7 +182,7 @@ margin-right: 150px;
   padding: 10px;
   margin-left: 0.5%;
   /* height: 800px; */
-  width: 100%;
+  width: 200% !important;
 }
 .main-content{
 width: 100%;
