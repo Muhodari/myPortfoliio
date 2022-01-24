@@ -327,11 +327,11 @@ font-size: 30px;
  font-family: 'Work Sans';
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
   .about-me-container{
     /* background-color: turquoise; */
-    width: 100%;
-    margin-top: 1000px;
+    width: 200%;
+    margin-top: 250px;
     margin-left: 0;
     padding-left: 0;
   }
@@ -372,29 +372,29 @@ width: 100% !important;
   .about-coninter-description h1{
     font-weight: bold;
     font-family:sans-serif;
-    font-size: 65px;
+    font-size: 115px;
     }
 
     .about-coninter-description p{
-      margin-top: 40px;
-     font-size: 40px;
+      margin-top: 100px;
+     font-size: 90px;
      font-weight: 500;
-     line-height: 40px;
+     line-height: 90px;
      font-family: 'Work Sans';
      color: #4F4F4F;
     }
 
 
     .about-image{
-      width:100% !important;
+      width:200% !important;
       margin-top:0 !important;
       margin-left: 70px !important;
     }
     .about-image img{
-      margin-top: 90px;
-
-      /* height:120%; */
-      /* width:180%; */
+      margin-top: 1000px;
+       margin-left:280px ;
+      height:180%;
+      width:55%;
       /* font-size: 20px; */
       /* margin-left:0px; */
       background-position: center;
@@ -485,13 +485,14 @@ height: 980px;
 @media only screen and (max-width:768px){
 
   .someWorks-container{
- margin-top: 960px;
+ margin-top: 2900px;
+ width: 300%;
   }
 
 .contain-works{
 
   height:auto;
-  width: 180%;
+  width: 120%;
   margin-left: 10%;
 }
 
@@ -506,12 +507,12 @@ height: 980px;
 .project img{
 
   width:93%;
-  height: 360px;
+  height: 700px;
   margin: 7% 3% 7% 3%;
   position:relative;
 }
 .project-name{
-  font-size: 35px;
+  font-size: 80px;
 }
 .langouge-container button{
   width: 150px;
