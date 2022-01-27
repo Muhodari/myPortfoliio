@@ -72,7 +72,7 @@ body {
   /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
   position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
 }
 
 .header ul {
@@ -128,7 +128,7 @@ body {
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 60px;
 }
 
 .header .menu-icon .navicon:before,
@@ -177,9 +177,14 @@ body {
   top: 0;
 }
 
+.navicon{
+  font-size: 300px !important;
+}
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+
+  
   .header li {
     float: left;
   }
@@ -310,7 +315,7 @@ body {
   margin-top: 6px;
   background:#FBFBFB;
   width: 400% !important;
-  margin-top: 800px;
+  margin-top: 0px;
  
 
 
