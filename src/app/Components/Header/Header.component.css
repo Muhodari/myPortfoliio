@@ -17,11 +17,9 @@ mat-toolbar{
   position: sticky;
   position: -webkit-sticky; /* For macOS/iOS Safari */
   top: 0; /* Sets the sticky toolbar to be on top */
-  z-index: 3;
+  z-index: 1;
   background: white;
   box-shadow: 0;
-
-
 }
 .logo{
 margin-left: 230px;
